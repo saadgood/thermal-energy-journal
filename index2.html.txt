@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Energy and Materials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #002c54;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 80px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        nav {
+            background: #0056a3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        footer {
+            background-color: #002c54;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        h2 {
+            color: #002c54;
+        }
+        form {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .search-bar input[type="text"] {
+            width: 60%;
+            padding: 10px;
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            background: #0056a3;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Science-symbol.svg/1024px-Science-symbol.svg.png" alt="Journal Logo">
+    <h1>Thermal Energy and Materials</h1>
+    <p>Journal of Heat Transfer and Advanced Materials</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#issues">Issues</a>
+    <a href="#submit">Submit</a>
+    <a href="#search">Search</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About the Journal</h2>
+    <p>This journal publishes peer-reviewed research on thermal energy systems and material innovations in energy science.</p>
+</section>
+
+<section id="issues">
+    <h2>Published Articles</h2>
+    <ul>
+        <li><strong>Vol 1, Issue 1</strong>: <a href="sample-paper1.pdf" download>Download PDF</a></li>
+        <li><strong>Vol 1, Issue 2</strong>: <a href="sample-paper2.pdf" download>Download PDF</a></li>
+    </ul>
+</section>
+
+<section id="submit">
+    <h2>Submit Your Paper</h2>
+    <form>
+        <label for="name">Author Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="title">Paper Title</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="file">Upload Manuscript (PDF)</label>
+        <input type="file" id="file" name="file" accept="application/pdf" required>
+
+        <button type="submit">Submit Paper</button>
+    </form>
+</section>
+
+<section id="search">
+    <h2>Search Articles</h2>
+    <div class="search-bar">
+        <input type="text" placeholder="Search by author, title or keyword">
+        <button>Search</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@thermaljournal.org</p>
+    <p>Address: Laboratory of Materials and Energy, XYZ University</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Thermal Energy and Materials Journal</p>
+</footer>
+
+</body>
+</html>

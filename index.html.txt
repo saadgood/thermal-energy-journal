@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Energy and Materials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0066cc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Thermal Energy and Materials</h1>
+        <p>A Scientific Journal on Thermal Physics and Materials Science</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#issues">Issues</a>
+        <a href="#submit">Submit Paper</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About the Journal</h2>
+        <p>The journal <strong>Thermal Energy and Materials</strong> publishes high-quality research in the fields of heat transfer, thermodynamics, energy systems, and materials science.</p>
+    </section>
+
+    <section id="issues">
+        <h2>Published Issues</h2>
+        <p>Volume 1, Issue 1 – July 2025: <a href="#">View PDF</a></p>
+        <p>Volume 1, Issue 2 – December 2025: <a href="#">Coming Soon</a></p>
+    </section>
+
+    <section id="submit">
+        <h2>Submit Your Paper</h2>
+        <p>To submit your article, please send it in PDF format to: <strong>submission@thermaljournal.org</strong></p>
+        <p>Ensure your manuscript follows the author guidelines before submission.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@thermaljournal.org</p>
+        <p>Phone: +212-XXX-XXX-XXX</p>
+        <p>Address: Faculty of Science, University XYZ</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Thermal Energy and Materials. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
